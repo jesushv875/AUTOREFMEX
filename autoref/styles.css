@@ -33,10 +33,10 @@ ul {
 .nav-main {
   font-size: 17px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 60px;
-  padding: 25px 0;
+  padding: 25px;
   background-color: rgb(44, 119, 44);
 }
 
@@ -297,7 +297,10 @@ hr {
     width: 80%;
   }
   .cards-banner-two .VIDEO{
-    width: auto;
+    width: 100%;
+  }
+  .cards-banner-two .letras{
+    display: none;
   }
 
   .footer-links .footer-container {
